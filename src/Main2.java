@@ -82,6 +82,17 @@ public class Main2 {
             for (char c : s.toCharArray()){
                 if (fastFlag){
                     if (c == ']'){
+                        // four = 4분음표
+                        // eight = 8분음표
+                        // sixteen = 16분음표
+                        // thirtyTwo = 32분음표
+                        // sixtyFour = 64분음표
+                        // _128 = 128분음표
+                        // _256 = 256분음표
+                        // _6 = 육잇단마디
+                        // _5 = 오잇단마디
+                        // _3 = 삼잇단마디
+
                         double standard = (double)60 / bpm * 1000;
                         String four = "w" + (int)standard;
                         String eight = "w" + (int)(standard / 2);
