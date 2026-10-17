@@ -198,8 +198,6 @@ public class Main2 {
 
                     if (ch == '\''){
                         release += min;
-
-                        //sb.delete(sb.length() - tmpString.length(), sb.length());
                     } else {
                         String tmp = hm.get(ch);
 
@@ -208,14 +206,12 @@ public class Main2 {
                             num -= release;
                             release = 0;
                             sb.append("w" + num).append('\n');
-                            //tmpString = "w" + num;
 
                             continue;
                         }
                     }
 
                     sb.append(hm.get(ch)).append('\n');
-                    //tmpString = hm.get(ch);
                 }
             }
         }
