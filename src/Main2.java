@@ -2,6 +2,8 @@ import java.util.HashMap;
 
 public class Main2 {
     public static void main(String[] args) throws Exception {
+        // 메인 코드
+
         HashMap<Character, String> hm = new HashMap<>();
         hm.put('Q', "hC-1");
         hm.put('W', "hD-1");
